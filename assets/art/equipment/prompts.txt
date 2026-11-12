@@ -1,0 +1,23 @@
+Built-in image_gen, new directional wearable sprite assets.
+Reference: assets/art/world/recruit_walk.png (style and camera only).
+Destination: assets/art/equipment/caps.png and canteen_views.png.
+Saved project files:
+assets/art/equipment/caps.png
+assets/art/equipment/canteen_views.png
+Original recruit_walk.png was preserved. Rendering uses measured per-pose anchors in scripts/soldier_appearance.gd.
+The exact prompts below were sent to the built-in image_gen tool; no API/CLI fallback was used.
+
+CAPS
+Use case: stylized-concept. Asset type: transparent directional accessory sprite atlas, 4 columns by 1 row, for an existing native top-down 2D Korean army roleplaying game.
+Reference image role: the attached recruit_walk.png is a STYLE, CAMERA and UNIFORM COLOR REFERENCE only. DO NOT reproduce the character sheet. Output only FOUR isolated military patrol caps, no heads or bodies.
+Primary request: four perfectly matching views of the SAME modest soft fabric Korean-style digital camouflage patrol cap, fitted crown, short curved brim, matching the reference uniform's muted olive/brown camouflage and painterly realistic material. This is a wearable sprite that will fit naturally on the reference soldier's bare head, not a large merchandise icon or helmet.
+Layout: one horizontal row of 4 equal-width cells on genuinely transparent canvas, no gutters or borders. Front facing viewer in cell1; exact left profile with brim pointing LEFT in cell2; exact right profile with brim pointing RIGHT in cell3; rear view with brim hidden behind crown in cell4. Camera elevation about 20 degrees looking slightly downward, consistent with the reference soldier. Each cap centered in its cell, consistent real-world scale, complete silhouette and modest transparent padding; no overlapping cells. Crown should follow a normal human head; never a huge square bucket shape. Front view brim extends down/forward, rear has small adjustment seam, no logos or rank pins.
+Style: detailed but restrained high quality game sprite painting, believable stitching and curved crown, soft top-left daylight, clean alpha edges, no separate drop shadow. Entire atlas wide landscape.
+Constraints: FOUR caps total, ONLY caps. No heads, hair, faces, mannequin, hands, bodies, text, numbers, lettering, UI, arrows, shadow beneath objects, checkerboard pattern, background or extra objects. Actual transparency.
+
+CANTEEN
+Use case: stylized-concept. Asset type: transparent 4-column 1-row directional wearable accessory sprite atlas for a premium top-down 2D military RPG.
+Reference image role: recruit_walk.png is STYLE/CAMERA/UNIFORM reference, not an edit target. Output only four views of one compact olive canvas army canteen pouch worn hanging snugly at a soldier's belt. The canteen bottle is fully seated in its fitted canvas carrier with a small visible olive screw cap, rounded rectangular soft padded body, two simple snap flaps and canvas seams, understated aged textile. No loose water bottle, no dangling straps.
+Layout: 4 equal horizontal cells, centered objects at identical scale. Cell1 pouch seen from front and slightly above, cell2 left profile of pouch seen from left, cell3 mirrored right profile, cell4 back view of the same pouch showing belt attachment webbing. Consistent camera elevation20 degrees; natural orthographic game sprite views, no exaggerated 3D merch perspective. Each complete silhouette centered in its own cell with modest padding, no overlap.
+Style: grounded painterly realism, muted olive/brown palette matching supplied soldier, soft top-left daylight, crisp readable shape at small size, tactile cloth and metal snaps, no external shadow.
+Constraints: exactly four isolated pouches, no soldier/body/belt/hands/background/text/grid/checkerboard/arrows/numbers/logos. Genuinely transparent canvas.

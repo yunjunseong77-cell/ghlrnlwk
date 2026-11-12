@@ -1,0 +1,22 @@
+{
+  "name": "육군훈련소 · 교육대 생활 구역",
+  "size": [2400, 1600],
+  "spawn": [600, 610],
+  "walk_bounds": [145, 152, 2110, 1330],
+  "buildings": [
+    [230, 196, 745, 360],
+    [1420, 196, 755, 360],
+    [282, 1100, 515, 340],
+    [1600, 1100, 550, 340]
+  ],
+  "places": [
+    {"id": "barracks", "name": "생활관", "position": [600, 602], "action": "bedding", "hint": "침상 정리"},
+    {"id": "instructor", "name": "조교", "position": [1200, 700], "action": "drill", "hint": "다음 집합", "actor": true, "facing": 0},
+    {"id": "peer", "name": "옆자리 훈련병", "position": [735, 635], "action": "peer", "hint": "대화", "actor": true, "facing": 1},
+    {"id": "dining", "name": "식당", "position": [1795, 605], "action": "dining", "hint": "아침 식사"},
+    {"id": "px", "name": "PX", "position": [560, 1055], "action": "shop", "hint": "물품 살펴보기"},
+    {"id": "equipment", "name": "훈련 준비실", "position": [1825, 1050], "action": "equipment", "hint": "훈련 기록"},
+    {"id": "departure", "name": "교육대 출입로", "position": [1200, 1430], "action": "departure", "hint": "주변 살피기"},
+    {"id": "range", "name": "사격장 이동로", "position": [2160, 850], "action": "shooting", "hint": "사격 퀘스트"}
+  ]
+}

@@ -1,0 +1,45 @@
+기상나팔
+재생 파일 reveille_11s.ogg
+사용자가 제공한 '군대 기상 나팔.mp3'의 처음 11초를 사용합니다.
+마지막 0.06초는 클릭 잡음을 막기 위해 페이드아웃했습니다.
+reveille.mp3에 원본을 보관합니다.
+
+사고 충돌음
+파일 impact.ogg
+crashing.wav — smmassuda
+https://freesound.org/people/smmassuda/sounds/136629/
+CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+공개 HQ 프리뷰의 1.075초부터 2.6초를 사용하고 끝을 페이드아웃했습니다.
+
+웃음소리
+파일 laugh.ogg
+small group — richwise
+https://freesound.org/people/richwise/sounds/497420/
+CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+Olympus LS-5 녹음의 공개 HQ 프리뷰 중 4.2초를 사용하고 시작과 끝을 페이드 처리했습니다.
+
+타이틀 총성
+파일 title_shot.ogg
+AR15 - Single Shot — GeneralSigma
+https://freesound.org/people/GeneralSigma/sounds/515322/
+CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+공개 HQ 프리뷰의 앞 무음을 제거하고 끝을 페이드아웃했습니다.
+원제작자가 밝힌 원본 https://freesound.org/people/SuperPhat/sounds/432366/
+
+트럭 경적
+파일 horn.ogg
+Loud truck horn — freesman
+https://directory.audio/sound-effects/transportation/20947-loud-truck-horn
+CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+공개 오디오 프리뷰의 처음 2초를 사용하고 끝을 페이드아웃했습니다.
+
+제식 발걸음
+파일 drill_step.ogg
+concrete_17a_boots_walk.wav — sturmankin
+https://freesound.org/people/sturmankin/sounds/272253/
+CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+제작자가 ZOOM H2로 집 지하실의 콘크리트 바닥 위에서 부츠를 신고 걷는 소리를 녹음했다고 밝힌 자료입니다.
+공개 HQ 프리뷰: https://cdn.freesound.org/previews/272/272253_4181170-hq.mp3
+0.075초부터 0.48초 분량의 한 발걸음을 발췌했습니다.
+55Hz 하이패스, 시작 0.004초·끝 0.05초 페이드, +9dB 증폭 후 48kHz 모노 Ogg Vorbis로 변환했습니다.
+프리뷰 원본 보관: .godot/audio_sources/272253_boots_concrete_hq.mp3

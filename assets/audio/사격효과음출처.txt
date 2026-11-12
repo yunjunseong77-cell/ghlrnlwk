@@ -1,0 +1,34 @@
+사격 효과음 출처와 편집 내역
+확인일: 2026-11-12
+
+명중 확인음
+게임 파일: shoot_hit.ogg
+원제: ting2.wav
+제작자: Mihacappy
+원문: https://freesound.org/people/Mihacappy/sounds/828150/
+라이선스: CC0 1.0, https://creativecommons.org/publicdomain/zero/1.0/
+원문에서 금속 파이프를 가볍게 두드려 휴대폰으로 녹음했다고 설명합니다.
+실제 탄환의 표적 충돌음이 아니라, 게임의 명중 확인에 사용하는 실제 금속 타격 녹음입니다.
+공개 HQ 프리뷰: https://cdn.freesound.org/previews/828/828150_10594370-hq.mp3
+원본 프리뷰 보관: .godot/audio_sources/828150_pipe_ting_hq.mp3
+편집: 0.175초부터 0.48초 발췌, 450Hz 하이패스, 9500Hz 로우패스, +11dB,
+시작 0.003초와 끝 0.15초 페이드, 48kHz 모노 Ogg Vorbis(품질 6).
+최종 길이 0.48초. 계측한 최대 피크 약 -4.9dBFS.
+
+재장전 기계음
+게임 파일: shoot_reload.ogg
+원제: Gun Reload
+제작자: SecureSubset
+원문: https://freesound.org/people/SecureSubset/sounds/787669/
+라이선스: CC0 1.0, https://creativecommons.org/publicdomain/zero/1.0/
+원문에서 주유기 소리를 직접 녹음해 정리한 재장전용 효과음이라고 설명합니다.
+실총 재장전 녹음이 아니라, 실제 기계 녹음을 재장전 연출에 사용하는 폴리 효과음입니다.
+공개 HQ 프리뷰: https://cdn.freesound.org/previews/787/787669_16752880-hq.mp3
+원본 프리뷰 보관: .godot/audio_sources/787669_gas_pump_reload_hq.mp3
+편집: 앞 0.85초 사용, 90Hz 하이패스, 시작 0.003초와 끝 0.03초 페이드,
+48kHz 모노 Ogg Vorbis(품질 6).
+최종 길이 0.85초. 계측한 최대 피크 약 -4.3dBFS.
+
+두 파일 모두 원제작자의 Freesound 상세 페이지에서 CC0 표시와 녹음 설명을 확인했습니다.
+공개 프리뷰를 내려받아 발췌·필터·음량·페이드만 편집했으며, 합성 음원은 사용하지 않았습니다.
+타이틀에서 재사용하는 title_shot.ogg의 원출처는 같은 폴더의 출처.txt에 있습니다.

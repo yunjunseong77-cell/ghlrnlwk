@@ -1,0 +1,21 @@
+.godot/
+build/
+*.tmp
+
+# Generated QA captures; the directory itself is kept for test output.
+docs/previews/*
+!docs/previews/.gitkeep
+!docs/previews/.gdignore
+
+# Local credentials, editor state and export signing configuration.
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+export_credentials.cfg
+*.pfx
+*.p12
+*.key
+Thumbs.db
+Desktop.ini

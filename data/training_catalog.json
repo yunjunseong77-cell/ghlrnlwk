@@ -1,0 +1,125 @@
+{
+  "currency_name": "훈련 코인",
+  "training": [
+    {
+      "id": "bedding",
+      "name": "침상 정리",
+      "tag": "접기 · 정렬 · 순발력",
+      "description": "펼쳐진 침구를 직접 접고, 순서와 각을 맞춰 적재하라.",
+      "unlock": "스토리에서 침상 정리 훈련 완료",
+      "scene": "res://scenes/training/bedding.tscn",
+      "first_bonus": 100,
+      "base_reward": 50,
+      "quest": {
+        "image": "res://assets/art/quests/bedding_quest.png",
+        "description": "기상은 했다. 이제 침상부터 각을 잡을 차례다.",
+        "thought": "저 창이…… 나한테만 보이는 건가?",
+        "objectives": [
+          "펼쳐진 모포를 두 번, 매트리스를 한 번 접기",
+          "매트리스 → 모포 → 베개 순서로 적재하기",
+          "적재 위치와 기준각 0° 맞추기"
+        ],
+        "time_limit": 60,
+        "pass_score": 80,
+        "controls": "귀퉁이 드래그로 접기 · 몸통 드래그로 이동\n휠로 회전 · 오른쪽 드래그로 정밀 회전"
+      }
+    },
+    {
+      "id": "drill",
+      "retired": true,
+      "name": "제식 훈련",
+      "tag": "구령 판단 · 동작 · 대형",
+      "description": "구령을 끝까지 듣고 정확히 움직여 대형을 지켜라.",
+      "unlock": "연병장에서 제식 훈련 완료",
+      "scene": "res://scenes/training/drill.tscn",
+      "first_bonus": 100,
+      "base_reward": 50,
+      "quest": {
+        "image": "res://assets/art/quests/drill_quest.png",
+        "description": "몸이 기억하는 군생활. 이번에는 구령부터 증명하라.",
+        "thought": "이걸 또 배우네. 그래도 각 하나는 자신 있지.",
+        "objectives": [
+          "예령과 동령을 구분해 지시된 동작 수행하기",
+          "방향 전환 뒤에도 대형과 간격 유지하기",
+          "이어지는 구령을 정확하게 수행해 평가 통과하기"
+        ],
+        "pass_score": 75,
+        "controls": "WASD / 방향키 · 클릭으로 이동 / Q·E로 회전\nSpace 정지 · Esc 일시정지 / 연습 후 약 2분 종합 평가"
+      }
+    },
+    {
+      "id": "shooting",
+      "quick_play": true,
+      "name": "사격",
+      "tag": "정밀 명중 · 연속 콤보",
+      "description": "튀어나오는 표적을 꿰뚫고, 연속 명중으로 기록을 끌어올려라.",
+      "unlock": "스토리 진행 전에도 바로 도전할 수 있습니다.",
+      "scene": "res://scenes/training/shooting.tscn",
+      "first_bonus": 100,
+      "base_reward": 50,
+      "quest": {
+        "image": "res://assets/art/shooting/range.png",
+        "description": "몸이 기억하는 감각. 이번에는 한 발로 증명한다.",
+        "thought": "표적을 보는 순간, 손이 먼저 움직였다.",
+        "objectives": [
+          "45초 동안 표적 18개 이상 명중시키기",
+          "표적 중심을 맞히고 연속 명중 콤보 이어가기",
+          "정확도·명중량·중앙 명중 평가 70점 이상으로 통과하기"
+        ],
+        "time_limit": 45,
+        "pass_score": 70,
+        "controls": "마우스 조준 · 왼쪽 클릭 발사 · R 재장전\n8발 탄창 · Esc 일시정지 · 표적을 처리하면 즉시 다음 묶음"
+      }
+    },
+    {
+      "id": "march",
+      "name": "완전군장 행군",
+      "tag": "지구력 · 판단",
+      "description": "끝까지 걷는 것, 그리고 함께 도착하는 것.",
+      "unlock": "스토리에서 완전군장 행군 완료",
+      "scene": "res://scenes/training/march.tscn",
+      "first_bonus": 120,
+      "base_reward": 60
+    },
+    {
+      "id": "packing",
+      "name": "군장 빨리 싸기",
+      "tag": "정리 · 순발력",
+      "description": "제한 시간 안에 빠짐없이, 빈틈없이.",
+      "unlock": "스토리에서 군장 싸기 훈련 완료",
+      "scene": "res://scenes/training/packing.tscn",
+      "first_bonus": 80,
+      "base_reward": 40
+    },
+    {
+      "id": "gas_mask",
+      "name": "방독면",
+      "tag": "침착함 · 숙련",
+      "description": "당황하지 말고, 정확한 동작으로.",
+      "unlock": "스토리에서 방독면 훈련 완료",
+      "scene": "res://scenes/training/gas_mask.tscn",
+      "first_bonus": 80,
+      "base_reward": 40
+    },
+    {
+      "id": "combat_course",
+      "name": "각개전투",
+      "tag": "이동 · 타이밍",
+      "description": "엄폐에서 엄폐로, 기회를 보고 돌파하라.",
+      "unlock": "스토리에서 각개전투 완료",
+      "scene": "res://scenes/training/combat_course.tscn",
+      "first_bonus": 100,
+      "base_reward": 50
+    },
+    {
+      "id": "grenade",
+      "name": "수류탄 투척",
+      "tag": "거리 · 정확도",
+      "description": "방향과 힘을 읽어 목표 지점에 도달하라.",
+      "unlock": "스토리에서 수류탄 훈련 완료",
+      "scene": "res://scenes/training/grenade.tscn",
+      "first_bonus": 80,
+      "base_reward": 40
+    }
+  ]
+}

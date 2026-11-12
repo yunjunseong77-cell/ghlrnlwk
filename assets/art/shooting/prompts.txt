@@ -1,0 +1,26 @@
+Built-in image_gen generation. New game assets, 2026-11-12.
+
+Saved project assets (original alpha preserved):
+assets/art/shooting/range.png
+assets/art/shooting/weapon.png
+assets/art/shooting/target.png
+The generated assets required by the game are included at the relative paths above.
+The following are the exact final prompts sent to the built-in tool; no API/CLI fallback was used.
+
+RANGE
+Use case: stylized-concept. Asset type: production background plate for a native Korean military story arcade target shooting game, wide 16:9 landscape.
+Primary request: Beautiful detailed first-person view from the firing line of a fictional South Korean army recruit outdoor practice range on a clear late-morning day. Premium grounded painterly realism like polished narrative game key art, tactile sunlit earth, subtle filmic contrast, pine-covered hills and a tall safe earthen backstop across the distance.
+Composition: level camera facing forward, horizon in upper 22 percent, wide unobstructed open sandy shooting field filling the central 80 percent and most lower half. Perspective ground markings very subtle. Tiny dark roof eave across the very top and narrow wooden booth edges at extreme left/right only, keeping center clear. A worn dark bench/rest edge occupies only the bottom 8 percent. The playable targets will be separate moving sprites layered across x=10%-90%, y=30%-68%, so this area must be visually quiet, readable and empty. Distant olive range building and trees only at far edges. Warm sun, cool soft shadows, rich natural color without oversaturation.
+Constraints: environment background only, no people, no guns, no targets, no target silhouettes, no text, no signs, no numbers, no UI, no reticles, no watermarks. Finished game art, not a photograph and not a UI mockup.
+
+WEAPON
+Use case: stylized-concept. Asset type: transparent foreground weapon-and-hands sprite for a premium native Korean military arcade target shooting game.
+Primary request: A single first-person view of a generic dark olive and matte-black late-20th-century service rifle held by two gloved hands with digital camouflage sleeves. Polished painterly realistic game art with detailed polymer, worn steel edges, fabric stitching, coherent anatomy. This is a game foreground prop, not a technical illustration.
+Composition: isolated cutout in a wide horizontal rectangle; viewer's weapon enters from the lower right, receiver and stock cropped naturally by the bottom/right boundary, barrel points diagonally away toward upper left/center. Muzzle located around 26 percent from left and 25 percent from top. Both hands believably support the weapon, strongest shapes concentrated lower-right, upper-left mostly empty alpha so targets remain readable. Mild top-left warm sunlight matches an outdoor sand firing range. Entire silhouette clean, compact, no detached pieces.
+Constraints: genuinely transparent background, no ground, no scenery, no text, no logos, no reticle, no UI, no muzzle flash, no smoke, no bullet effects, no extra weapons, no diagrams, no display stand. Only the rifle, hands and small visible sleeve cuffs.
+
+TARGET
+Use case: stylized-concept. Asset type: one transparent sprite texture for a premium Korean military arcade target shooting game.
+Primary request: A single upright knock-down practice silhouette plate, straight-on orthographic front view. No human: it is a flat manufactured training target cut from thin dull olive-gray painted steel, faced with old warm beige kraft paper. Premium grounded painterly realism matching an outdoor dusty shooting range. Visible fine paper grain, subtle creases, tiny edge scuffs, a couple of small staple marks and a thin dark metal rim create tactile material, while the face stays uncluttered for scoring rings the engine will overlay.
+Exact silhouette proportions: overall width 80 units, height126 units. Flat bottom, vertical body sides over lower81units; sloping short shoulders narrowing to a neck width48; top head is a flattened rounded rectangle with width36 at crown expanding to48 at cheeks. Broad simple chest/body. Front face absolutely straight on, no perspective rotation. Symmetric shape occupying nearly entire canvas with minimal transparent margin.
+Warm daylight from top-left, subtle material edge shading only. No cast shadow outside sprite. No support pole, no base, no floor. No target rings, no bullseye, no circles, no printed silhouette of a person, no numbers, no text, no bullet holes, no logos, no UI. Genuinely transparent background. One solitary object only; do not provide a sprite sheet or multiple views.

@@ -1,0 +1,147 @@
+[
+  {
+    "id": "gloves",
+    "name": "훈련용 장갑",
+    "price": 120,
+    "slot": "손",
+    "description": "모포 끝을 단단히 잡아주는 국방색 장갑.",
+    "effects": {
+      "fold_assist": 0.15
+    },
+    "kind": "equipment",
+    "icon": 0
+  },
+  {
+    "id": "shoulder_pad",
+    "name": "군장 어깨 패드",
+    "price": 180,
+    "slot": "군장",
+    "description": "어깨 부담을 덜어 탐색 발걸음이 가벼워진다.",
+    "effects": {
+      "move_speed": 0.1
+    },
+    "kind": "equipment",
+    "icon": 1
+  },
+  {
+    "id": "ace_badge",
+    "name": "에이스 명찰",
+    "price": 250,
+    "slot": "명찰",
+    "description": "훈련 성과를 인정받은 병사의 작은 자부심.",
+    "effects": {
+      "reward_bonus": 0.1
+    },
+    "kind": "equipment",
+    "icon": 2
+  },
+  {
+    "id": "boots",
+    "name": "경량 전투화",
+    "price": 160,
+    "slot": "발",
+    "description": "길들인 전투화. 연병장을 더 빠르게 오간다.",
+    "effects": {
+      "move_speed": 0.12
+    },
+    "kind": "equipment",
+    "icon": 3
+  },
+  {
+    "id": "field_cap",
+    "name": "A급 전투모",
+    "price": 140,
+    "slot": "머리",
+    "description": "반듯한 복장까지 갖춘 훈련병의 마무리.",
+    "effects": {
+      "reward_bonus": 0.05
+    },
+    "kind": "equipment",
+    "icon": 4
+  },
+  {
+    "id": "watch",
+    "name": "군용 손목시계",
+    "price": 180,
+    "slot": "손목",
+    "description": "남은 시간을 계획하며 침상 정리에 여유를 만든다.",
+    "effects": {
+      "bedding_time": 6
+    },
+    "kind": "equipment",
+    "icon": 5
+  },
+  {
+    "id": "precision_gloves",
+    "name": "정밀 작업 장갑",
+    "price": 240,
+    "slot": "손",
+    "description": "미세한 회전을 잡아주는 손끝 감각. 장갑과 교체 장착.",
+    "effects": {
+      "snap_degrees": 3
+    },
+    "kind": "equipment",
+    "icon": 6
+  },
+  {
+    "id": "canteen",
+    "name": "휴대 수통",
+    "price": 150,
+    "slot": "군장",
+    "description": "한 모금 쉬어가는 여유. 어깨 패드와 교체 장착.",
+    "effects": {
+      "bedding_time": 5
+    },
+    "kind": "equipment",
+    "icon": 7
+  },
+  {
+    "id": "choco_pie",
+    "name": "초코파이",
+    "price": 30,
+    "slot": "소모품",
+    "description": "몸을 추스를 때 꺼내 먹는 익숙한 달콤함. 직접 사용하면 체력을 회복한다.",
+    "effects": {
+      "heal_hp": 30
+    },
+    "kind": "consumable",
+    "icon": 8
+  },
+  {
+    "id": "coffee",
+    "name": "믹스커피",
+    "price": 15,
+    "slot": "소모품",
+    "description": "지친 몸을 다시 움직이게 하는 한 잔. 직접 사용하면 지구력을 회복한다.",
+    "effects": {
+      "restore_stamina": 35
+    },
+    "kind": "consumable",
+    "icon": 9
+  },
+  {
+    "id": "energy_bar",
+    "name": "에너지바",
+    "price": 35,
+    "slot": "소모품",
+    "description": "오래 버텨야 할 때 챙기는 간편 보급식. 체력과 지구력을 함께 회복한다.",
+    "effects": {
+      "heal_hp": 20,
+      "restore_stamina": 20
+    },
+    "kind": "consumable",
+    "icon": 10
+  },
+  {
+    "id": "sports_drink",
+    "name": "이온음료",
+    "price": 25,
+    "slot": "소모품",
+    "description": "달리거나 움직여 소진한 지구력을 채운다. 필요한 순간 직접 사용한다.",
+    "effects": {
+      "restore_stamina": 50
+    },
+    "kind": "consumable",
+    "icon": 11
+  }
+]
